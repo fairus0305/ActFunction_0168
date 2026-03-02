@@ -3,11 +3,15 @@
 using namespace std; 
 
 //deklarasi variabel
-float r, phi;
+float r;
 
 void input(){
-    cout << "masukan Phi : ";
-    cin >> phi;
     cout << "masukan r :";
     cin >> r;
 }
+
+float LuasLingkaran(float a){ //parameter
+    return a * a * 3.14159 ;
+}
+
+
