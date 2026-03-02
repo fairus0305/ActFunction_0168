@@ -11,12 +11,12 @@ void input(){
 }
 
 //fungsi
-float LuasLingkaran(float a){
-    return 3.14159 * a * a;
+float LuasLingkaran(){
+    return 3.14159 * r * r;
 }
 //output
 void output(){
-    cout << "hasil  : " << LuasLingkaran(r);
+    cout << "hasil  : " << LuasLingkaran();
 }
 //program utama
 int main(){
