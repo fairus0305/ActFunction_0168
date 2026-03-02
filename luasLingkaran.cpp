@@ -10,8 +10,12 @@ void input(){
     cin >> r;
 }
 
-float LuasLingkaran(float a){ //parameter
+float LuasLingkaran(float a){ 
     return a * a * 3.14159 ;
+}
+
+void output(){
+    cout << "hasil  : " << LuasLingkaran(r);
 }
 
 
